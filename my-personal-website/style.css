@@ -1,0 +1,13 @@
+.main-header {
+    background-color: black;
+    color: azure;
+    text-align: center;
+}
+
+.main-header {
+    padding: 10%;
+    margin: 10%;
+    border-style: dotted;
+    border-color: aqua;
+    border-width: 8px;
+}
