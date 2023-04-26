@@ -1,0 +1,1 @@
+console.log("Hello World! Welcome to my personal website, currently under construction.")
