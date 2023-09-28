@@ -1,49 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home Page</title>
-    <link rel="stylesheet" href="style.css" />
 
-  </head>
-  <body>
-    <style>
-        body {
-          background-image: url('https://static.vecteezy.com/system/resources/previews/003/776/244/non_2x/astrology-horizontal-star-universe-background-vector.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-        }
-        </style> 
-
-    <header>
-      <h3><span class="name">Frederick Garcia</h3></span>
-        <br>
-        <h4><span class="name">FullStack Student</h4></span>
-      <nav class="links">
-        <a href="index.html">| Home |</a>
-        <a href="about.html">| About Me |</a>
-        <a href="portfolio.html">| Portfolio |</a>
-      </nav>
-    </header>
-    <br>
-    <br>
-    <main>
-    <div class="main-header">
-        <h1>
-        "I was never more certain of how far away I was from my goal than when I was standing right beside it." 
-        <br>
-        -Vincent Freeman, 'Gattaca'
-      </h1>
-    </div>
-    </main>
-    <img
-      src="https://scitechdaily.com/images/Supermassive-Black-Hole-Illustration-Artists-Concept.jpg"
-      alt="A Black Hole"
-      class="black-hole"
-    />
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- let's connect with css-->
+  <link rel="stylesheet" href="style.css">
+  <!-- let's connect with javascript-->
   <script src="javascript.js"></script>
+  <!--Name of the website-->
+  <title>Frederick Garcia</title>
+  <!-- favicon logo-->
+  <link rel="icon" type="image/x-icon" href="images/FGLogo.png">
+  <!-- internal style for whole page-->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- creating menubar with logo-->
+  <nav>
+    <img src="images/FGLOGO.png" alt="Logo" class="logo">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  <!-- info class about myself-->
+  <div class="info">
+    <h1> I am <span>Frederick</span> Garcia</h1>
+    <p> A.R.C Specialist
+      <br> FullStack  Academy Student
+      <br>
+      <br> Check out my resume 
+      <br> and web development porftolio.
+    </p>
+    <a href="FG_IC_Resume_07.16.23.pdf" class="btn" target="_blank">DOWNLOAD CV</a>
+  </div>
+  <!--images of the page-->
+  <div class="images">
+    <img src="images/ProfileBackground.jpg" alt="shape" class="shape">
+    <img src="images/FredegaPhoto.jpg" alt="myshelf" class="myself">
+  </div>
+  
+</body>
 </html>

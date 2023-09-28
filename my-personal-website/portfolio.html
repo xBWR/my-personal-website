@@ -1,58 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <style>
-        body {
-          background-image: url('https://static.vecteezy.com/system/resources/previews/003/776/244/non_2x/astrology-horizontal-star-universe-background-vector.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-        }
-        </style> 
 
-    <header>
-        <h3><span class="name">Frederick Garcia</h3></span>
-        <br>
-        <h4><span class="name">FullStack Student</h4></span>
-        </span>
-      <nav class="links">
-        <a href="index.html">| Home |</a>
-        <a href="about.html">| About Me |</a>
-        <a href="portfolio.html">| Portfolio |</a>
-      </nav>
-    </header>
-    <br />
-    <br />
-    <div class="porfolio-text">
-        <h1>Projects I've worked on</h1>
-        <h2>My First Project</h2>
-        <p>
-          This is where I would input what the project is and what I did for the
-          project.
-        </p>
-    </div>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- let's connect with css-->
+  <link rel="stylesheet" href="style.css">
+  <!-- let's connect with javascript-->
+  <script src="javascript.js"></script>
+  <!--Name of the website-->
+  <title>Riya Gandhi</title>
+  <!-- favicon logo-->
+  <link rel="icon" type="image/x-icon" href="images/FGLogo.png">
+  <!-- internal style for whole page-->
+  <style>
+    /* style to all elements*/
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-    <img src="https://cdn.sanity.io/images/uk7b627p/production/5b7eec57a2212a1d12aee86ae78bf42c9abe2e82-7648x7648.jpg?w=600&q=80&auto=format" class="black-hole">
-    <div class="porfolio-text">
-    <h2>My Second Project</h2>
-    <p>This is where I would input what the project is and what I did for the
-        project. 
-    </p>
+    /* style to h2 tags of this page*/
+    h2 {
+      color: #0097B2;
+      margin-bottom: 2%;
+    }
+
+    /* background image for this page*/
+    body {
+      background-image: url("images/BGIMG.jpg");
+    }
+  </style>
+</head>
+
+<body>
+  <!-- creating menubar with logo-->
+  <nav>
+    <img src="images/FGLOGO.png" alt="Logo" class="logo">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+  <!--class for timeline which is projectline-->
+  <div class="projectline">
+    <!--class container left is for text card in left side -->
+    <div class="container left">
+      <!--class content is for content of the card-->
+      <div class="content">
+        <h2> GameTime </h2><iframe src="ENTERVIDEOHERE1.mp4"></iframe>
+      </div>
     </div>
-    <img src="https://images.ctfassets.net/dkgr2j75jrom/5ZMVFnA66RV19ZC6pJRswG/ad0950667a60b8ae5391ed5e54d6c5ff/engineering_blog-dk-green-1-600x600.svg" class="black-hole">
-    <div class="porfolio-text">  
-    <h2>My Third Project</h2>
-    <p>This is where I would input what the project is and what I did for the
-        project. 
-    </p>
-    </div> 
-    <img src="https://i.imgflip.com/7jj12d.jpg" alt="A fish bowl in focus that has a sunset in view through it in the distance" class="black-hole">
-  </body>
+    <!--class container right is for text card in right side -->
+    <div class="container right">
+      <div class="content">
+        <h2> Grocery Book </h2><iframe src="ENTERVIDEOHERE2.mp4"></iframe>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2> Zoo Animals </h2> <iframe src="ENTERVIDEOHERE5.mp4"></iframe>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2> Class Project Webpage </h2> <img style="width: 50%;" src="IMAGEHERE.jpeg">
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2> Currency Conversion </h2> <iframe src="ENTERVIDEOHERE6.mp4"></iframe>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2> Simple Calculator </h2> <iframe src="ENTERVIDEOHERE7.mp4"></iframe>
+      </div>
+    </div>
+    <div class="container left">
+      <div class="content">
+        <h2> Temperature Conversion </h2> <iframe src="ENTERVIDEOHERE8.mp4"></iframe>
+      </div>
+    </div>
+    <div class="container right">
+      <div class="content">
+        <h2> Tip Calculator </h2> <iframe src="ENTERVIDEOHERE9.mp4"></iframe>
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>

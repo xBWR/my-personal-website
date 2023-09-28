@@ -1,56 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="style.css">
-    <body background="https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?cs=srgb&dl=pexels-felix-mittermeier-956999.jpg&fm=jpg"></body>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- let's connect with css-->
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Actor' rel='stylesheet'>
+  <!-- let's connect with javascript-->
+  <script src="javascript.js"></script>
+  <!--Name of the website-->
+  <title>Frederick Garcia</title>
+  <!-- favicon logo-->
+  <link rel="icon" type="image/x-icon" href="images/FGLOGO.png">
+  <!-- internal style for whole page-->
+  <style>
+    /* style to all elements*/
+    * {
+      margin: 0;
+      padding: 0;
+    }
 
+    /* style for paragraph*/
+    p {
+      font-size: large;
+      text-align: justify;
+      margin-left: 10%;
+      margin-right: 10%;
+      font-family: 'Actor';
+    }
+
+    /*background image*/
+    body {
+      background-image: url("images/BGIMG.jpg");
+    }
+  </style>
 </head>
-<body>   
-    <style>
-        body {
-          background-image: url('https://static.vecteezy.com/system/resources/previews/003/776/244/non_2x/astrology-horizontal-star-universe-background-vector.jpg');
-          background-repeat: no-repeat;
-          background-attachment: fixed;
-          background-size: cover;
-        }
-        </style> 
 
-    <header>
-        <h3><span class="name">Frederick Garcia</h3></span>
-        <br>
-        <h4><span class="name">FullStack Student</h4></span>
-        <nav class="links">
-            <a href="index.html">| Home |</a>
-            <a href="about.html">| About Me |</a>
-            <a href="portfolio.html">| Portfolio |</a>
-        </nav>
-    </header>
-    <br>
-    <br>
-    <main>
-        <div class="about-me-main-header">
-            <h1>If you’re in the luckiest one per cent of humanity, 
-                <br>
-                you owe it to the rest of humanity to think 
-                <br>
-                about the other 99 percent.</h1>
-        </div>
-    <br>
-    <br>
-    <div class="about-me-interests" > 
-        <h2><strong>Interests</h2></strong>
-        <ol>
-            <li>Self Improvement (Kaizen)</li>
-            <li>Software Development</li>
-            <li>Six Sigma Methodologies</li>
-            <li>Team Development</li>
-        </ol>
+<body>
+  <!-- creating menubar with logo-->
+  <nav>
+    <img src="images/FGLOGO.png" alt="Logo" class="logo">
+    <ul>
+      <li><a href="index.html">HOME</a></li>
+      <li><a href="about.html">ABOUT</a></li>
+      <li><a href="portfolio.html">PORTFOLIO</a></li>
+      <li><a href="contact.html">CONTACT</a></li>
+    </ul>
+  </nav>
+  <!--class for card to flip with image and text-->
+  <div class="flip-card">
+    <div class="flip-card-inner">
+      <!-- class for front side of the card-->
+      <div class="flip-card-front">
+        <img src="images/FredegaPhoto.jpg" alt="Frederick" style="width:500px;height:600px;"> <!--gave specific style to the image-->
+      </div>
+      <!-- class for back side of the card-->
+      <div class="flip-card-back">
+        <h1 style="color:black; margin-top: 5%;">Frederick Garcia </h1> </br>
+        <h2>Web Developer & A.R.C Specialist</h2> </br>
+        <p>Driven professional with expertise in operations and team leadership. As an A.R.C Specialist,
+          I've applied data-driven strategies to exceed SLA targets and boost efficiency. 
+          My logistics journey spans managing large teams, processing millions of packages, and enhancing vendor relationships.</p>
+        </br>
+        <p>I prioritize streamlining processes, mentoring teams, and achieving operational excellence. My diverse roles range from
+          project management and analysis to hands-on warehouse tasks.
+          
+          Notable achievements:</p> </br>
+        <p>⦿ Enhanced ticket SLA and age metrics.
+          <p>  ⦿ Developed tools using VBA and JavaScript, cutting labor by 6%.
+            <p>  ⦿ Managed 2M packages on a daily basis with high accuracy.
+              <p>  ⦿ Elevated 5x L1 employees to L3 roles.</p>
+        </br>
+        <p>Passionate about optimizing operations and leading teams. Based in Tempe, Arizona,
+          I'm open to networking and collaboration.</p>
+      </div>
     </div>
-    </main>
-    <br>
+  </div>
+
 </body>
+
 </html>
